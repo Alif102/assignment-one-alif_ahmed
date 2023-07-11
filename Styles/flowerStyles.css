@@ -1,8 +1,8 @@
 body{
     font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
 } 
 
 
@@ -25,7 +25,7 @@ font-family: 'Roboto Slab', serif;
 .banner-heading{
     color: #272727;
     font-family: Lato;
-    font-size: 70px;
+    font-size: 67px;
     font-weight: 800;
     margin-bottom: 28px;
 
@@ -40,9 +40,10 @@ font-family: 'Roboto Slab', serif;
     border-radius: 8px;
     background: #E55473;  border: 0;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    padding: 20px 43px;
+    padding: 18px 40px;
+    margin-bottom: 2rem;
 }
 
 .flower-img{
@@ -252,8 +253,84 @@ text-decoration-line: underline;
 
 .back-img{
     background: url(../Rectangle\ 9.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 860px;
-    height: 200px;
+    height: 400px;
     margin-left: 15rem;
+    margin-top: 3rem;
+    padding: 5px 20px;
 }
+/* .back-content{
+    justify-content: center;
+    text-align: center; align-items: center;
+} */
+.back-para{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+/* .input-div{
+    display: flex;
+} */
+form{
+    justify-content: center; gap: 1.2rem; margin-bottom: 1rem;
+    margin-left: 9rem;
+}
+.back-header{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 3.5rem;
+
+}
+ .email-class input[type='email']{
+    border-radius: 8px; margin-top: 10px;
+    background: #FFF; width: 380px;height: 45px; border: 0; text-align: start;
+ }
+ .email-class input[type='submit']{
+    border-radius: 8px;
+    background: #E55473;  border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 33px;
+ }
+
+ /* Footer */
+ footer{
+    background: #111010;
+    width: auto;
+    height: 200px;
+    text-align: center;
+    color: #FFF;
+    padding: 30px 30px;
+    margin-bottom: 10px;
+ }
+ .footer-para{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    
+
+ }
+ .copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 1.8rem;
+    font-weight: 400;
+
+ }
